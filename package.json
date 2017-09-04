@@ -1,0 +1,8 @@
+{"name":"tree-kit",
+ "version":"1.0.0",
+ "scripts":
+
+ {"compile":"sibilant ./src/index.sibilant -o ./",
+  "test":"sibilant -x ./test.sibilant"},
+
+ "dependencies": {"kit":"../kit"}}
