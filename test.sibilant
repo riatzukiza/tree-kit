@@ -1,0 +1,20 @@
+(namespace tree-tests)
+
+(include "kit/header")
+(import-namespace kit)
+
+(include "../interface/index")
+(import-namespace interface)
+
+(include "./src/index")
+(import-namespace tree-kit)
+
+(require! 'assert)
+
+(const tree ((create Tree-map)))
+
+(.insert tree ['a 'b])
+
+(assert (.has tree ['a 'b]) "tree isn't inserting properly")
+(assert (not (.has tree ['a 'x])) "tree appears to contain values that were never inserted")
+(print "all tests pass!")
