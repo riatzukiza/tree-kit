@@ -1,8 +1,11 @@
 {"name":"tree-kit",
- "version":"1.0.0",
+ "version":"1.0.1",
  "scripts":
 
  {"compile":"sibilant ./src/index.sibilant -o ./",
   "test":"sibilant -x ./test.sibilant"},
 
- "dependencies": {"kit":"../kit"}}
+ "dependencies":
+ {"kit":"git+ssh://riatzukiza@192.168.0.150:1250/H/gits/kit",
+  "kit-interface":"git+ssh://riatzukiza@192.168.0.150:1250/H/gits/kit-interface"}
+ }
