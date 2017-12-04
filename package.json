@@ -6,6 +6,6 @@
   "test":"sibilant -x ./test.sibilant"},
 
  "dependencies":
- {"kit":"git+ssh://riatzukiza@192.168.0.150:1250/H/gits/kit",
-  "kit-interface":"git+ssh://riatzukiza@192.168.0.150:1250/H/gits/kit-interface"}
+ {"kit":"git+ssh://riatzukiza@aaron.kettlelogic.space:1250/H/gits/kit",
+  "kit-interface":"git+ssh://riatzukiza@aaron.kettlelogic.space:1250/H/gits/kit-interface"}
  }
